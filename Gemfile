@@ -28,6 +28,7 @@ group :development,:test do
 
   gem 'rspec-rails'
   gem 'cucumber-rails'
+  gem 'minitest'
   gem 'database_cleaner'
   gem 'autotest', '4.4.6' 
   gem 'autotest-rails-pure', '4.1.2' 
