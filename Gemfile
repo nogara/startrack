@@ -25,6 +25,17 @@ group :development,:test do
   platforms :mri_19 do
     gem "ruby-debug19", '0.11.6', :require => 'ruby-debug'
   end
+
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+  gem 'autotest', '4.4.6' 
+  gem 'autotest-rails-pure', '4.1.2' 
+  gem 'autotest-fsevent', '0.2.4' # Mac OS X only 
+  gem 'autotest-growl', '0.2.16'
+  gem 'term-ansicolor'
+  gem 'turn'
+  
 end
 
 group :production do
